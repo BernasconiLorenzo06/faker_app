@@ -1,0 +1,15 @@
+doctype html
+html(lang="it")
+  head
+    meta(charset="UTF-8")
+    title= title
+    link(rel="stylesheet", href="/stylesheets/style.css")
+  body
+    header
+      h1= title
+    .container
+      ul
+        each set in lego 
+          li
+            p= set.name
+            img(src=set.imgSrc.cover)
