@@ -15,8 +15,14 @@ function getLego() {
 
 /* GET users listing. */
 router.get('/', (req, res) => {
-    const lego = getLego();
+    var lego = getLego();
     res.render('index', { title: 'lego di paolo', lego:lego});
   });
 
+
+  router.get('/:set_lego', (req, res) => {
+    const set_lego = req.params.set_lego;
+    const set = lego.find(s => s.id==set_lego)
+    res.render('lego', { title: 'primo lego', set:set});
+  });
 module.exports = router;

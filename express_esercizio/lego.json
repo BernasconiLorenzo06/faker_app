@@ -3,6 +3,7 @@
             "name": "Imperial AT-AT",
             "number": "LEGO 4483",
             "theme": "Star Wars Classic",
+            "id":1,
             "imgSrc": 
                     {
                         "cover": "images/macchinaneraopaca1.jpg",
@@ -14,6 +15,7 @@
             "name": "Escape from Privet Drive",
             "number": "LEGO 4728",
             "theme": "Harry Potter",
+            "id":2,
             "imgSrc": 
                     {
                         "cover": "escape-drive-cover.jpg",
@@ -25,6 +27,7 @@
             "name": "Krusty Krab",
             "number": "LEGO 3825",
             "theme": "Spongebob Squarepants",
+            "id":3,
             "imgSrc": 
                     {
                         "cover": "krusty-krab-cover.jpg",

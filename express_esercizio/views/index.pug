@@ -11,5 +11,6 @@ html(lang="it")
       ul
         each set in lego 
           li
-            p= set.name
+            a(href=`/paolo/${set.id}`)= set.name
             img(src=set.imgSrc.cover)
+      a(href="/") vai a paolo
